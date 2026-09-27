@@ -1,0 +1,525 @@
+* {
+    padding: 0px !important;
+    margin: 0px !important;
+    font-family: Montserrat;
+}
+
+
+.container-fluid {
+    padding: 10px 50px !important;
+}
+
+.col {
+    align-self: center;
+}
+
+.site-header {
+    Background-color: #ffffff;
+    position: sticky;
+    top: 0;
+}
+
+.brand .brand-name a {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 48px;
+    color: black;
+    text-decoration: none;
+}
+
+
+
+.shop-icons {
+    text-align: end;
+}
+
+ul.nav-links {
+    justify-content: right;
+}
+
+div#navbarNav {
+    background: white;
+    justify-content: right !important;
+
+
+}
+
+.navbar-nav {
+    flex-direction: row;
+    gap: 20px;
+}
+
+
+nav.navbar.navbar-expand-lg.bg-body-tertiary {
+    justify-self: end;
+}
+
+li.nav-item {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    color: #5C5F60;
+    text-decoration: none;
+}
+
+.shop-icons img {
+    margin: 6px !important;
+}
+
+
+.banner {
+
+
+    background:
+        linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.85) 100%),
+        url("Images/Banner.png");
+    height: 1000px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+
+
+.cta-shop-button {
+    background-color: black;
+    color: white;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 17.5px 32px 18.5px 32px !important;
+    border-radius: 12px;
+}
+
+.cta-explore-button {
+    background-color: transparent;
+    color: white;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    border: 2px solid white;
+    padding: 17.5px 32px 18.5px 32px !important;
+    border-radius: 12px;
+}
+
+
+.button-section {
+    margin-top: 30px !important;
+    justify-self: center;
+}
+
+
+
+.bnr-heading {
+    background-color: #F9F9F9CC;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 48px;
+    color: black;
+    text-decoration: none;
+    padding: 8px 24px 8px 24px !important;
+}
+
+
+h2.bnr-heading {
+    text-align: center;
+    justify-self: center;
+}
+
+
+.bnr-description {
+    margin-top: 25px !important;
+    padding: 4px 44.09px 4px 44.09px !important;
+    background-color: #F9F9F9CC;
+    text-align: center;
+    justify-self: center;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 28.8px;
+}
+
+.container-fluid.banner {
+
+    align-content: center !important;
+}
+
+.shop-category {
+    margin-top: 40px !important;
+    font-family: Montserrat;
+    font-weight: 600 !important;
+    font-size: 24px;
+    line-height: 31.2px;
+    padding-bottom: 5px !important;
+    border-bottom: 2px solid #E2E2E2;
+
+}
+
+.featured-category {
+    margin-top: 40px !important;
+    font-family: Montserrat;
+    font-weight: 600 !important;
+    font-size: 24px;
+    line-height: 31.2px;
+    padding-bottom: 5px !important;
+}
+
+
+.category-section {
+
+    margin-top: 25px !important;
+    display: grid;
+    gap: 24px;
+    height: 95vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "side side head head"
+        "side side card1 card2"
+        "side side card1 card2";
+}
+
+
+.box1 {
+    grid-area: side;
+    background:
+        linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.85) 100%),
+        url("Images/Men.png");
+    border-radius: 12px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box2 {
+    grid-area: head;
+    background:
+        linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.85) 100%),
+        url("Images/Women.png");
+    border-radius: 12px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box3 {
+    grid-area: card1;
+    background:
+        linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.85) 100%),
+        url("Images/Accessories.png");
+    border-radius: 12px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box4 {
+    grid-area: card2;
+    background:
+        linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.85) 100%),
+        url("Images/Kids.png");
+    border-radius: 12px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.box1,
+.box2 {
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    line-height: 31.2px;
+    align-content: end;
+    padding: 20px !important;
+
+
+}
+
+
+.box3,
+.box4 {
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    line-height: 24px;
+    align-content: end;
+    padding: 20px !important;
+
+
+}
+
+.featured-products {
+    background-color: #F9F9F9;
+    margin: 50px 0px !important;
+    padding-bottom: 50px !important;
+
+}
+
+
+.view-all {
+    text-decoration: none;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 12px;
+    color: #5C5F60;
+}
+
+.main-view-all {
+    text-align-last: end;
+    align-self: end;
+}
+
+.featured-thumbnail {
+    border-radius: 12px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+h5 {
+    font-family: Inter;
+    padding-top: 10px !important;
+    font-size: 14px !important;
+    font-weight: 600;
+    line-height: 12px;
+    color: #5C5F60 !important;
+}
+
+.feature-product-name {
+    font-family: Inter;
+    padding-top: 10px !important;
+    font-size: 20px !important;
+    font-weight: 400;
+    line-height: 24px;
+    padding-top: 2px !important;
+    padding-bottom: 10px !important;
+}
+
+span.feature-product-price {
+    font-family: Inter;
+    padding-top: 10px !important;
+    font-size: 18px !important;
+    font-weight: 700;
+    line-height: 24px;
+
+}
+
+.featured-section {
+    display: flex !important;
+    flex-direction: row !important;
+    margin-top: 20px !important;
+    gap: 35px;
+}
+
+.fetr-section {
+    width: 25% !important;
+}
+
+.site-footer {
+    margin-bottom: 20px !important;
+}
+
+.footer-copyright {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 12px !important;
+    line-height: 12px;
+    color: #5C5F60;
+    margin-top: 30px !important;
+}
+
+
+.footer-title {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 32px;
+    color: black;
+}
+
+.footer-content {
+    font-family: Inter;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    color: #5C5F60;
+    margin-top: 20px !important;
+}
+
+
+.footer-first-col {
+    align-self: self-start;
+}
+
+.col.col-lg-2 {
+    align-self: start;
+}
+
+.footer-column ul {
+    margin-top: 15px !important;
+}
+
+.footer-column ul li {
+    list-style: none;
+    padding-top: 10px !important;
+    font-family: Inter;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    color: #5C5F60;
+}
+
+.footer-column h6 {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 12px;
+}
+
+.Connect-icons {
+    padding-top: 30px !important;
+}
+
+.Connect-icons p {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    color: #5C5F60;
+    margin-top: 15px !important;
+}
+
+
+/* mobile screen */
+@media (max-width: 426px) {
+    .brand-icon {
+        display: none;
+    }
+
+    .brand .brand-name a {
+        font-size: 35px;
+    }
+
+    .container-fluid {
+        padding: 10px 20px !important;
+    }
+
+    nav.navbar.navbar-expand-lg.bg-body-tertiary {
+
+        background-color: white !important;
+    }
+
+    .bnr-heading {
+        font-size: 35px;
+    }
+
+    .bnr-description {
+        font-size: 14px !important;
+        line-height: 19px;
+    }
+
+
+    .featured-section {
+        display: flex !important;
+        flex-direction: column !important;
+        margin-top: 20px !important;
+
+    }
+
+    .fetr-section {
+        width: 100% !important;
+
+    }
+
+    .category-section {
+        display: flex;
+        flex-direction: column !important;
+        height: 150vh !important;
+    }
+
+    .box.box1,
+    .box.box2,
+    .box.box3,
+    .box.box4 {
+        height: 350px !important;
+        width: 100% !important;
+    }
+
+    .container-fluid.featured-products {
+        margin-top: 15px !important;
+    }
+
+
+    .footer-sec {
+        display: flex;
+        flex-direction: column !important;
+    }
+
+
+    .footer-column {
+        margin-top: 18px !important;
+    }
+
+    .footer-column ul li {
+        padding-top: 1px !important;
+
+    }
+
+    .Connect-icons {
+        padding-top: 10px !important;
+    }
+
+
+    .footer-brand .footer-content {
+        font-size: 15px !important;
+
+    }
+}
+
+
+
+/* lap screen */
+@media (max-width: 1025px) {
+
+    .brand .brand-name a {
+        font-size: 35px;
+    }
+
+    .container-fluid.banner {
+        height: 90vh;
+    }
+
+    .cta-shop-button,
+    .cta-explore-button {
+        padding: 8.5px 15px 8.5px 15px !important;
+    }
+
+}
+
+/* Tablet screen */
+@media (max-width: 769px) {
+
+    .bnr-description {
+        font-size: 17px;
+    }
+
+    .category-section {
+        display: flex;
+        flex-direction: row;
+        height: 25vh;
+        margin-bottom: 30px !important;
+    }
+
+    .box {
+        height: 200px !important;
+        width: 25% !important;
+    }
+
+    .feature-product-name {
+        font-size: 15px !important;
+        font-weight: 500;
+    }
+
+
+}
